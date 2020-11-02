@@ -1,0 +1,13 @@
+.item-list {
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.item-list .list-group-item {
+  cursor: pointer;
+ 
+}
+.item-list .list-group-item:hover {
+  background-color: #444;
+}
